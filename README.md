@@ -2,7 +2,6 @@
 
 A_TIP_A_DAY is a Go-based web application that delivers a daily dose of technical tips and knowledge in various fields of technology.
 
-![Project Screenshot](screenshot.png) <!-- Add a screenshot of your project here if available -->
 
 ## Table of Contents
 - [Introduction](#introduction)
