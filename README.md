@@ -9,10 +9,7 @@ A_TIP_A_DAY is a Go-based web application that delivers a daily dose of technica
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
