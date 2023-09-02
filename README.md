@@ -1,10 +1,45 @@
 # A_TIP_A_DAY
-Requirements:
-User has to be registered
-User has to select his interests in technology( Golang | Kubernetes | Python) etc.
-Based on his selection, a tip to be displayed on the screen every day.
-As the day changes the tip also should be changed automatically.
-A User should see only one tip per technology per day. A new tip will appear only when the day changes.
-There are two types of users in the system. Normal User, Admin User.
-Normal user can see or access a tip
-Admin user can create a tip
+
+A_TIP_A_DAY is a Go-based web application that delivers a daily dose of technical tips and knowledge in various fields of technology.
+
+![Project Screenshot](screenshot.png) <!-- Add a screenshot of your project here if available -->
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+A_TIP_A_DAY is designed to help developers and technology enthusiasts learn something new every day. It provides daily tips on a wide range of technology topics, including programming languages, development tools, and best practices.
+
+## Features
+
+- Daily technical tips delivered to users.
+- A user-friendly web interface for viewing and interacting with tips.
+- A well-structured codebase for easy maintenance and contributions.
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Go](https://golang.org/doc/install) installed on your machine.
+- [MongoDB](https://docs.mongodb.com/manual/installation/) installed and running.
+
+### Installation
+
+To install and run A_TIP_A_DAY, follow these steps:
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/nithish-NB/A_TIP_A_DAY.git
+   cd A_TIP_A_DAY
