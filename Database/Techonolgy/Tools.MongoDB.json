@@ -1,0 +1,248 @@
+[{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d22"
+  },
+  "date": 1,
+  "technology": "MongoDb",
+  "content": "1. Start with the official MongoDB documentation to understand the basics. [MongoDB Documentation](https://docs.mongodb.com/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d23"
+  },
+  "date": 2,
+  "technology": "MongoDb",
+  "content": "2. Install and set up MongoDB following the official installation guide. [Installation Guide](https://docs.mongodb.com/manual/installation/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d24"
+  },
+  "date": 3,
+  "technology": "MongoDb",
+  "content": "3. Use a MongoDB GUI client like MongoDB Compass for visual management. [MongoDB Compass](https://www.mongodb.com/try/download/compass)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d25"
+  },
+  "date": 4,
+  "technology": "MongoDb",
+  "content": "4. Create databases and collections to organize your data effectively. [Create Databases and Collections](https://docs.mongodb.com/manual/core/databases-and-collections/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d26"
+  },
+  "date": 5,
+  "technology": "MongoDb",
+  "content": "5. Understand BSON, MongoDB's binary JSON format, for data storage. [BSON](https://docs.mongodb.com/manual/reference/bson-types/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d27"
+  },
+  "date": 6,
+  "technology": "MongoDb",
+  "content": "6. Master CRUD operations: Create, Read, Update, and Delete documents. [CRUD Operations](https://docs.mongodb.com/manual/crud/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d28"
+  },
+  "date": 7,
+  "technology": "MongoDb",
+  "content": "7. Utilize indexes to improve query performance. [Indexes](https://docs.mongodb.com/manual/indexes/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d29"
+  },
+  "date": 8,
+  "technology": "MongoDb",
+  "content": "8. Learn aggregation pipelines for complex data transformations. [Aggregation](https://docs.mongodb.com/manual/aggregation/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d2a"
+  },
+  "date": 9,
+  "technology": "MongoDb",
+  "content": "9. Practice schema design based on your application's needs. [Data Modeling](https://docs.mongodb.com/manual/core/data-modeling-introduction/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d2b"
+  },
+  "date": 10,
+  "technology": "MongoDb",
+  "content": "10. Understand the benefits and use cases of document-oriented databases like MongoDB. [Document-Oriented Databases](https://docs.mongodb.com/manual/core/databases-and-collections/#document-oriented)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d2c"
+  },
+  "date": 11,
+  "technology": "MongoDb",
+  "content": "11. Implement data validation using JSON Schema. [Data Validation](https://docs.mongodb.com/manual/core/schema-validation/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d2d"
+  },
+  "date": 12,
+  "technology": "MongoDb",
+  "content": "12. Secure your MongoDB instance with authentication and authorization. [Security](https://docs.mongodb.com/manual/security/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d2e"
+  },
+  "date": 13,
+  "technology": "MongoDb",
+  "content": "13. Set up user roles and access control to restrict permissions. [Role-Based Access Control](https://docs.mongodb.com/manual/core/security-built-in-roles/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d2f"
+  },
+  "date": 14,
+  "technology": "MongoDb",
+  "content": "14. Perform data backups and implement a disaster recovery plan. [Back Up and Restore](https://docs.mongodb.com/manual/core/backups/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d30"
+  },
+  "date": 15,
+  "technology": "MongoDb",
+  "content": "15. Monitor MongoDB performance using tools like MongoDB Atlas or Ops Manager. [Monitoring](https://docs.mongodb.com/manual/administration/monitoring/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d31"
+  },
+  "date": 16,
+  "technology": "MongoDb",
+  "content": "16. Tune MongoDB for optimal performance with configuration options. [Configuration](https://docs.mongodb.com/manual/reference/configuration-options/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d32"
+  },
+  "date": 17,
+  "technology": "MongoDb",
+  "content": "17. Handle errors and exceptions effectively in your MongoDB application. [Error Handling](https://docs.mongodb.com/manual/core/error-messages/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d33"
+  },
+  "date": 18,
+  "technology": "MongoDb",
+  "content": "18. Keep up-to-date with MongoDB releases and updates. [Release Notes](https://docs.mongodb.com/manual/release-notes/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d34"
+  },
+  "date": 19,
+  "technology": "MongoDb",
+  "content": "19. Utilize MongoDB drivers and libraries for various programming languages. [Drivers](https://docs.mongodb.com/ecosystem/drivers/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d35"
+  },
+  "date": 20,
+  "technology": "MongoDb",
+  "content": "20. Use sharding to distribute data across multiple servers for scalability. [Sharding](https://docs.mongodb.com/manual/sharding/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d36"
+  },
+  "date": 21,
+  "technology": "MongoDb",
+  "content": "21. Explore MongoDB Atlas, the managed database service by MongoDB. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d37"
+  },
+  "date": 22,
+  "technology": "MongoDb",
+  "content": "22. Implement geospatial queries for location-based applications. [Geospatial Queries](https://docs.mongodb.com/manual/geospatial-queries/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d38"
+  },
+  "date": 23,
+  "technology": "MongoDb",
+  "content": "23. Learn about change streams for real-time data updates. [Change Streams](https://docs.mongodb.com/manual/changeStreams/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d39"
+  },
+  "date": 24,
+  "technology": "MongoDb",
+  "content": "24. Apply time-to-live (TTL) indexes for automatic document expiration. [TTL Indexes](https://docs.mongodb.com/manual/core/index-ttl/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d3a"
+  },
+  "date": 25,
+  "technology": "MongoDb",
+  "content": "25. Understand how MongoDB handles transactions. [Transactions](https://docs.mongodb.com/manual/core/transactions/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d3b"
+  },
+  "date": 26,
+  "technology": "MongoDb",
+  "content": "26. Optimize query performance using query hints. [Query Hints](https://docs.mongodb.com/manual/reference/query-hint/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d3c"
+  },
+  "date": 27,
+  "technology": "MongoDb",
+  "content": "27. Monitor and optimize your MongoDB deployment for storage efficiency. [Storage](https://docs.mongodb.com/manual/core/storage/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d3d"
+  },
+  "date": 28,
+  "technology": "MongoDb",
+  "content": "28. Utilize the MongoDB Atlas Data Lake for data lake capabilities. [Data Lake](https://docs.mongodb.com/datalake/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d3e"
+  },
+  "date": 29,
+  "technology": "MongoDb",
+  "content": "29. Stay informed about MongoDB best practices for development and operations. [Best Practices](https://docs.mongodb.com/manual/best-practices/)"
+},
+{
+  "_id": {
+    "$oid": "64f24c0145850e26ae654d3f"
+  },
+  "date": 30,
+  "technology": "MongoDb",
+  "content": "30. Engage with the MongoDB community and forums for support and knowledge sharing. [Community](https://www.mongodb.com/community)"
+},
+{
+  "_id": {
+    "$oid": "64f2cc08c4feeb9e3a587322"
+  },
+  "date": 31,
+  "technology": "MongoDB",
+  "content": "2. Install and set up MongoDB following the official installation guide. [Installation Guide](https://docs.mongodb.com/manual/installation/)"
+}]

@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "64eed89a4d17c5870daf0529"
+  },
+  "name": "jiten",
+  "userid": 8888,
+  "password": "golang"
+},
+{
+  "_id": {
+    "$oid": "64eed8bd5b4727dd8a36e271"
+  },
+  "name": "nithish",
+  "userid": 7777,
+  "password": "boya"
+},
+{
+  "_id": {
+    "$oid": "64eed8d65254c3713980665b"
+  },
+  "name": "sai",
+  "userid": 9999,
+  "password": "sai"
+}]

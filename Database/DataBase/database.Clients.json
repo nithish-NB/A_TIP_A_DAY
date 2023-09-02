@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "64f24e20d7ed96bc163e6576"
+  },
+  "name": " Boya sai nithish",
+  "userid": 1111,
+  "password": "1111",
+  "technology": "MongoDB"
+},
+{
+  "_id": {
+    "$oid": "64f24e35d7ed96bc163e6578"
+  },
+  "name": "sai nithish",
+  "userid": 2222,
+  "password": "2222",
+  "technology": "Java"
+},
+{
+  "_id": {
+    "$oid": "64f24e4bd7ed96bc163e657a"
+  },
+  "name": "nithish",
+  "userid": 3333,
+  "password": "3333",
+  "technology": "Go"
+}]
