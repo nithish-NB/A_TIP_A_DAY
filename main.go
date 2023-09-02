@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	fmt.Println("system started")
+	fmt.Println("Its Working")
 	router := mux.NewRouter()
 	router.HandleFunc("/login", work.Login).Methods("POST")
 	router.HandleFunc("/register", work.Register).Methods("POST")
