@@ -168,23 +168,41 @@ func AddTip(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	_, ctx, _, client := Connect()
+	_, ctx, admincollection, client := Connect()
 	w.Header().Set("Content-Type", "application/json")
+	var user data.User
+	var tip data.Addtip
+	json.NewDecoder(r.Body).Decode(&tip)
+	filter := bson.D{{Key: "userid", Value: tip.Userid}}
 	defer client.Disconnect(ctx)
-	// Parse JSON data from the request body into a Tip struct
-	var tip data.Tip
-	if err := json.NewDecoder(r.Body).Decode(&tip); err != nil {
-		http.Error(w, err.Error(), http.StatusBadRequest)
-		return
-	}
-	database := client.Database("Tools")
-	godata := database.Collection(tip.Technology)
-	_, err := godata.InsertOne(ctx, tip)
-
+	err := admincollection.FindOne(ctx, filter).Decode(&user)
 	if err != nil {
-		http.Error(w, "data not found", http.StatusInternalServerError)
+		if err == mongo.ErrNoDocuments {
+			http.Error(w, "User not found", http.StatusNotFound)
+		} else {
+			http.Error(w, "Database error", http.StatusInternalServerError)
+		}
 		return
 	}
+	userpass := user.Password
+	dbpass := tip.Password
+	if userpass != dbpass {
+		w.Write([]byte("Incorrect password"))
+		return
+	}
+	if tip.Userid == user.Userid && userpass == dbpass {
+		w.Write([]byte("Sigin succesfull"))
+		database := client.Database("Tools")
+		godata := database.Collection(tip.Technology)
+		_, err = godata.InsertOne(ctx, tip)
+		if err != nil {
+			http.Error(w, "data not found", http.StatusInternalServerError)
+			return
+		}
+		w.Write([]byte("Tip added successfully"))
+	} else {
+		w.Write([]byte("Admin credentials wrong"))
+		return
 
-	w.Write([]byte("Tip added successfully"))
+	}
 }
